@@ -6,9 +6,7 @@ A web app that helps youth softball players learn and practice where to throw th
 
 ## The Problem
 
-On a 12U softball team, most players didn’t know the correct next play in the moment. In the field, someone has to call out where the infield should throw and where the outfield should throw. The girls were reluctant to yell anything because they weren’t confident in all the different situations—runners on base, number of outs, and score all change the right answer.
-
-Without a clear, low-stakes way to practice, they either stayed quiet or guessed, which slowed down play and made it harder to build good habits.
+On a 12 & under softball team where I was a volunteer coach, most players didn’t know the correct next play in the moment. In the field, someone has to call out where the infield should throw and where the outfield should throw. The girls were reluctant to yell anything because they weren’t confident in all the different situations—runners on base, number of outs, and score all change the right answer. Most of these usually loud girls were quiet at critical times during games.
 
 ---
 
@@ -27,10 +25,7 @@ Scenarios are driven by a CSV so the situations and “right answers” can be u
 ## Design Decisions
 
 **Cartoon-like look**  
-The UI is meant to feel a bit like a cartoon: thick black outlines, bold type, and a clear field diagram. The goal is to make the app feel less like a test and more like a light, approachable drill so players are more willing to use it and call out in real games.
-
-**Clarity over realism**  
-The field is simplified (top-down, clear bases and runners) so attention stays on “where does the ball go?” rather than on a realistic game view.
+The UI is meant to feel a bit like a cartoon: thick black outlines, bold type, and a clear field diagram. The goal is to make the app feel less like a test and more like a video game, so players are more willing to use it and get the confidence to call out in real games.
 
 ---
 
@@ -38,7 +33,7 @@ The field is simplified (top-down, clear bases and runners) so attention stays o
 
 **Visual and tone**  
 - Push the UI further toward a bold, cartoon style so it feels even more playful and distinct.
-- Try several color palettes to see how color can make the app feel more fun and fresh without hurting readability.
+- Try several color palettes to see how color can make the app feel more fun and modern without hurting readability.
 
 **Customization for coaches and teams**  
 - Let coaches customize which scenarios their team sees (e.g. more or less aggressive plays in certain situations).
